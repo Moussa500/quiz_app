@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What is the correct syntax to print 'Hello, World!' in C?",
+    "choices": [
+      {
+        "value": "echo 'Hello, World!'",
+        "correct": false
+      },
+      {
+        "value": "printf('Hello, World!');",
+        "correct": true
+      },
+      {
+        "value": "print('Hello, World!');",
+        "correct": false
+      },
+      {
+        "value": "console.log('Hello, World!');",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the output of the following code?\n\n```c\nint main() {\n    int a = 5, b = 2;\n    printf(\"%d\", a + b * 3);\n    return 0;\n}```",
+    "choices": [
+      {
+        "value": "5",
+        "correct": false
+      },
+      {
+        "value": "11",
+        "correct": true
+      },
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "7",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the correct way to declare an integer variable in C?",
+    "choices": [
+      {
+        "value": "int var;",
+        "correct": true
+      },
+      {
+        "value": "integer var;",
+        "correct": false
+      },
+      {
+        "value": "var int;",
+        "correct": false
+      },
+      {
+        "value": "float var;",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which function is used to allocate memory dynamically in C?",
+    "choices": [
+      {
+        "value": "malloc()",
+        "correct": true
+      },
+      {
+        "value": "alloc()",
+        "correct": false
+      },
+      {
+        "value": "calloc()",
+        "correct": false
+      },
+      {
+        "value": "memalloc()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the purpose of the 'return 0;' statement in C?",
+    "choices": [
+      {
+        "value": "To exit the program successfully",
+        "correct": true
+      },
+      {
+        "value": "To exit the program with an error",
+        "correct": false
+      },
+      {
+        "value": "To start the program",
+        "correct": false
+      },
+      {
+        "value": "To return the value of the last operation",
+        "correct": false
+      }
+    ]
+  }
+]

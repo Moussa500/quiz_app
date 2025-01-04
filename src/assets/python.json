@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What is the correct syntax to output 'Hello, World!' in Python?",
+    "choices": [
+      {
+        "value": "echo 'Hello, World!'",
+        "correct": false
+      },
+      {
+        "value": "print('Hello, World!')",
+        "correct": true
+      },
+      {
+        "value": "console.log('Hello, World!')",
+        "correct": false
+      },
+      {
+        "value": "printf('Hello, World!')",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the output of the following code?\n\n```python\nprint(3 + 2 * 5)\n```",
+    "choices": [
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "25",
+        "correct": false
+      },
+      {
+        "value": "13",
+        "correct": true
+      },
+      {
+        "value": "10",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following data structures is immutable in Python?",
+    "choices": [
+      {
+        "value": "List",
+        "correct": false
+      },
+      {
+        "value": "Dictionary",
+        "correct": false
+      },
+      {
+        "value": "Tuple",
+        "correct": true
+      },
+      {
+        "value": "Set",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "How do you start a function definition in Python?",
+    "choices": [
+      {
+        "value": "function myFunction()",
+        "correct": false
+      },
+      {
+        "value": "def myFunction():",
+        "correct": true
+      },
+      {
+        "value": "myFunction() =>",
+        "correct": false
+      },
+      {
+        "value": "define myFunction():",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the output of the following code?\n\n```python\nx = [1, 2, 3]\nprint(x[1])\n```",
+    "choices": [
+      {
+        "value": "1",
+        "correct": false
+      },
+      {
+        "value": "2",
+        "correct": true
+      },
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "IndexError",
+        "correct": false
+      }
+    ]
+  }
+]

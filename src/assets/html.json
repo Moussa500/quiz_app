@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What does HTML stand for?",
+    "choices": [
+      {
+        "value": "Hyperlinks and Text Markup Language",
+        "correct": false
+      },
+      {
+        "value": "Home Tool Markup Language",
+        "correct": false
+      },
+      {
+        "value": "HyperText Markup Language",
+        "correct": true
+      },
+      {
+        "value": "Hyperlinking and Text Management Language",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which HTML tag is used to define the largest heading?",
+    "choices": [
+      {
+        "value": "<h6>",
+        "correct": false
+      },
+      {
+        "value": "<heading>",
+        "correct": false
+      },
+      {
+        "value": "<h1>",
+        "correct": true
+      },
+      {
+        "value": "<head>",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which HTML element is used for creating hyperlinks?",
+    "choices": [
+      {
+        "value": "<link>",
+        "correct": false
+      },
+      {
+        "value": "<a>",
+        "correct": true
+      },
+      {
+        "value": "<href>",
+        "correct": false
+      },
+      {
+        "value": "<url>",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which attribute is used to specify an image source in HTML?",
+    "choices": [
+      {
+        "value": "href",
+        "correct": false
+      },
+      {
+        "value": "src",
+        "correct": true
+      },
+      {
+        "value": "alt",
+        "correct": false
+      },
+      {
+        "value": "source",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the purpose of the <alt> attribute in an <img> tag?",
+    "choices": [
+      {
+        "value": "To provide an alternative image format",
+        "correct": false
+      },
+      {
+        "value": "To describe the image for screen readers and display text if the image fails to load",
+        "correct": true
+      },
+      {
+        "value": "To style the image with CSS",
+        "correct": false
+      },
+      {
+        "value": "To provide the file path for the image",
+        "correct": false
+      }
+    ]
+  }
+]

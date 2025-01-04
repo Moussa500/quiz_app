@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What is the primary use of the 'async' keyword in Dart?",
+    "choices": [
+      {
+        "value": "To declare a function that returns a Stream",
+        "correct": false
+      },
+      {
+        "value": "To define a function that can execute synchronously",
+        "correct": false
+      },
+      {
+        "value": "To declare a function that returns a Future and allows asynchronous operations",
+        "correct": true
+      },
+      {
+        "value": "To specify that a function runs in a separate thread",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following is used to create immutable lists in Dart?",
+    "choices": [
+      {
+        "value": "Set",
+        "correct": false
+      },
+      {
+        "value": "const",
+        "correct": true
+      },
+      {
+        "value": "final",
+        "correct": false
+      },
+      {
+        "value": "var",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the result of running the following code?\n\n```dart\nvoid main() {\n  var list = [1, 2, 3];\n  print(list.map((e) => e * 2).toList());\n}\n```",
+    "choices": [
+      {
+        "value": "[1, 2, 3]",
+        "correct": false
+      },
+      {
+        "value": "[2, 4, 6]",
+        "correct": true
+      },
+      {
+        "value": "[1, 4, 9]",
+        "correct": false
+      },
+      {
+        "value": "[0, 2, 4]",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "In Dart, which operator is used to check if an object is of a specific type?",
+    "choices": [
+      {
+        "value": "as",
+        "correct": false
+      },
+      {
+        "value": "is",
+        "correct": true
+      },
+      {
+        "value": "==",
+        "correct": false
+      },
+      {
+        "value": "typeof",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What does the `late` keyword indicate in Dart?",
+    "choices": [
+      {
+        "value": "The variable is immutable and cannot be changed after initialization",
+        "correct": false
+      },
+      {
+        "value": "The variable will be initialized when it is first accessed",
+        "correct": true
+      },
+      {
+        "value": "The variable is optional and may not be initialized",
+        "correct": false
+      },
+      {
+        "value": "The variable is deprecated and should not be used",
+        "correct": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+.quiz {
+  max-width: 1000px;
+  margin: 30px auto; 
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+}
+
+.md-display-1 {
+  font-size: 32px; 
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px; 
+}
+
+.question-form-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+mat-card-content {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 12px; 
+  padding: 8px 0; 
+}
+
+input[type="radio"] {
+  margin-right: 12px; 
+  accent-color: #007BFF;
+  transition: transform 0.3s ease; 
+}
+
+input[type="radio"]:hover {
+  transform: scale(1.1);
+}
+
+label {
+  font-size: 18px;
+  color: #555; 
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
+
+label:hover {
+  color: #007BFF; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%; 
+}
