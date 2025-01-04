@@ -8,7 +8,7 @@
       class="btn btn-success"
       (click)="nextOrViewResults()"
       [disabled]="!answers.values[currentQuestionIndex]"
-    >{{currentQuestionIndex === quiz.questions.length - 1 ? 'View results' : 'Next'}}
+    >{{currentQuestionIndex === quiz.questions.length - 1 ? 'Result' : 'Next'}}
   </button>
   </div>
 </div>

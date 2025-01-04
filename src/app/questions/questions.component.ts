@@ -15,7 +15,7 @@ export class QuestionsComponent implements OnInit {
   questions: Question[];
   currentQuestionIndex: number;
   showResults = false;
-  constructor(private route: ActivatedRoute, private questionsService: QuestionsService) { }
+  constructor(private route: ActivatedRoute, private questionsService: QuestionsService) {}
    ngOnInit() {
     this.questionsService.getQuestions(this.route.snapshot.params.quizId)
       .subscribe(questions => {
