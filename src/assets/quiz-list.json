@@ -6,6 +6,12 @@
       "fileName": "c.json"
     },
     {
+      "label": "ruby",
+      "name": "ruby",
+      "description": "Questions about ruby",
+      "fileName": "ruby.json"
+    },
+    {
       "label": "dart",
       "name": "dart",
       "description": "Questions about dart",

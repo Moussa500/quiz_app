@@ -1,0 +1,108 @@
+[
+    {
+      "label": "What is the correct syntax to print 'Hello, World!' in Ruby?",
+      "choices": [
+        {
+          "value": "echo 'Hello, World!'",
+          "correct": false
+        },
+        {
+          "value": "puts 'Hello, World!'",
+          "correct": true
+        },
+        {
+          "value": "print('Hello, World!');",
+          "correct": false
+        },
+        {
+          "value": "console.log('Hello, World!');",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "label": "What is the output of the following code?\n\n```ruby\na = 5\nb = 2\nputs a + b * 3\n```",
+      "choices": [
+        {
+          "value": "5",
+          "correct": false
+        },
+        {
+          "value": "11",
+          "correct": true
+        },
+        {
+          "value": "15",
+          "correct": false
+        },
+        {
+          "value": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "label": "What is the correct way to declare a variable in Ruby?",
+      "choices": [
+        {
+          "value": "var = 10",
+          "correct": true
+        },
+        {
+          "value": "int var = 10",
+          "correct": false
+        },
+        {
+          "value": "integer var = 10",
+          "correct": false
+        },
+        {
+          "value": "var int = 10",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "label": "Which method is used to allocate memory dynamically in Ruby?",
+      "choices": [
+        {
+          "value": "Objects are automatically allocated memory in Ruby",
+          "correct": true
+        },
+        {
+          "value": "malloc()",
+          "correct": false
+        },
+        {
+          "value": "alloc()",
+          "correct": false
+        },
+        {
+          "value": "calloc()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "label": "What is the purpose of the 'return' statement in Ruby?",
+      "choices": [
+        {
+          "value": "To exit the method and optionally return a value",
+          "correct": true
+        },
+        {
+          "value": "To exit the program successfully",
+          "correct": false
+        },
+        {
+          "value": "To print a value",
+          "correct": false
+        },
+        {
+          "value": "To restart the program",
+          "correct": false
+        }
+      ]
+    }
+  ]
+  
